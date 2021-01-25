@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^elouanmace\.com\.mael2320\.odns\.fr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elouanmace\.com\.mael2320\.odns\.fr$
+RewriteRule ^/?$ "https\:\/\/elouanmace\.com" [R=301,L]
